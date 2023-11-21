@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --negro: black;
+    --gris: gray;
+    --blanco: white;
+    --grisClaro: rgba(255, 255, 255, 0.2)
+}
+
+header{
+    background-image: url(./IMG/fondo.webp);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -25px;
+}
+nav{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, var(--negro) 80%, var(--gris));
+    font-size: 20px;
+}
+.tituloP{
+    color: var(--blanco);
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+    margin-top: 20px;
+}
+nav a{
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--blanco);
+}
+nav a:hover{
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: var(--grisClaro);
+    backdrop-filter: blur(5px);
+    box-shadow: -10px 0 10px var(--negro);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.tituloV{
+    font-size: 30px;
+    color: var(--blanco);
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: -70px;
+    padding-top: -20px;
+    background-color: white;
+}
+.menu :hover, .cerrar :hover{
+    background-color: gray;
+  
+}
