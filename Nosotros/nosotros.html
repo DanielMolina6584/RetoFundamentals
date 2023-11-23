@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="nosotros.css">
-    <title>Document</title>
+    <link rel="icon" href="./IMG/logoo.png" type="image/png">
+    <title>Nosotros</title>
 </head>
 <body>
    
         <nav>
             <ul>
                 <li><h1 class="tituloP">Vecchio</h1></li>
-                <li class="menu" onclick= mostrar()>
-                    <a  href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                <li class="menu" onclick= "abrir()">
+                    <a><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
                 </li>
             </ul>
             
 
             <ul class="sidebar">
                 <li class="cerrar" onclick="quitar()">
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                    <a><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
                 </li>
                 <li><p class="tituloV">Vecchio</p></li>
                 <li class="enlaces"><a href="#">Inicio</a></li>
@@ -42,10 +43,11 @@
                 </div>
             </div>
     </header>
-
+ 
 <main>
+    <hr>
     <div class="tituloServicio">
-        <h2>Servicio para Nuestra Empresa</h2>
+        <h2>Conoce Sobre Nosotros</h2>
     </div>
     <div class="sesion0">
         <p>Nuestros valores fundamentales de integridad, pasión por la excelencia y compromiso con la satisfacción del cliente han sido el motor que impulsa cada interacción en Vecchio. Nuestro equipo dedicado de profesionales altamente capacitados está aquí para ayudarte a encontrar el vehículo perfecto que se adapte a tus necesidades y estilo de vida.</p>
@@ -61,12 +63,115 @@
           
         </div>
         <div class="sesion1_imagen">
-            <img src="./IMG/img1.webp" alt="">
+            <img src="./IMG/img1.webp" alt="" wid>
+        </div>
+
+    </div>
+
+
+    <div class="sesion2_video">
+        <video autoplay muted loop src="./IMG/rallye_-_1295 (360p).mp4"></video>
+    </div>
+    <hr>
+
+
+    <div class="sesion3">
+        <div class="sesion3_informacion">
+            <h2>Servicio al Cliente</h2>
+
+            <p>En Vecchio, nos enorgullecemos de ofrecer un servicio al cliente excepcional. Sabemos que cada interacción es una oportunidad para crear una experiencia única y memorable para nuestros clientes.
+            Nos esforzamos por ser más que simplemente un proveedor: somos socios comprometidos en tu satisfacción. <br>
+            
+            </p>
+        </div>
+        <div class="sesion3_todo">
+
+        <div id="carrusel"></div>
+        <button class="flechaI"> < </button>
+        <button class="flechaD"> > </button>
+        
+
+    </div>
+
+    </div>
+
+    <hr >
+
+    <div class="sesion4">
+
+        <div class="sesion4_imagen">
+            <img src="IMG/img2.jpeg" alt="">
+        </div>
+        <div class="sesion4_parrafo">
+            <h3>Mantenimiento</h3>
+            <p>En Vecchio, entendemos que la confiabilidad y el rendimiento óptimo de tus vehículos son fundamentales para el éxito de tu negocio. Es por eso que ofrecemos un servicio integral de mantenimiento automotriz diseñado específicamente para mantener tus coches en óptimas condiciones. <br><br>
+            <span>Nuestro compromiso con la excelencia se refleja en cada paso del proceso de mantenimiento. Contamos con un equipo de técnicos altamente capacitados y certificados que emplean las últimas tecnologías y herramientas para asegurar que cada vehículo que entra en nuestras instalaciones reciba un servicio de calidad superior.</span>
+            </p>
+        </div>
+
+        <div class="sesion4_parrafo2">
+            <h3>Garantia</h3>
+            <p>Nuestra garantía está diseñada para brindarte tranquilidad y confianza en cada compra o contratación de servicio que realices con nosotros. Nos comprometemos a corregir cualquier defecto de fabricación o problema de servicio dentro de los términos y condiciones especificados. <br> <br>
+            <span>
+                La garantía de Vecchio cubre todo tipo de choques o problemas en tu coche y se extiende por un período de 2 años a partir de la fecha de compra o de la finalización del servicio. Durante este período, nos comprometemos a reparar, reemplazar o proporcionar soluciones adecuadas sin costos adicionales para ti.
+            </span>
+            </p>
+        </div>
+        <div class="sesion4_imagen2">
+            <img src="./IMG/img3.jpg" alt="">
+        </div>
+    </div>
+
+    <hr class="hr">
+
+    <div class="sesion5">
+        <div class="sesion5_imagen">
+            <img src="./IMG/logoo.png" alt="">
+        </div>
+
+        <div class="sesion5_formulario">
+            <form>
+                
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre"><br><br>
+                
+                
+                <input type="text" id="apellido" name="apellido" required placeholder="Appelidos"><br><br>
+                
+                
+                <select id="pais" name="pais" required aria-placeholder="Pais">
+                  <option value="">Pais</option>
+                  <option value="España">Colombia</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="México">México</option>
+                  <option value="España">España</option>
+                  <option value="España">Brasil</option>
+                  <option value="España">Alemania</option>
+                  <option value="España">Estados Unidos</option>
+                </select><br><br>
+                
+                
+                <input type="tel" id="celular" name="celular" required placeholder="Celular"><br><br>
+                
+                
+                <input type="email" id="correo" name="correo" required placeholder="Correo"><br><br>
+                
+             
+                
+                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Mensaje"></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+              </form>
+
         </div>
 
     </div>
 </main>
    
-    <script src="nosotros.js"></script>
+    <script src="script.js"></script>
+    <script src="nosotros.js" type="module"></script>
+    <script src="data.js" type="module"></script>
+
 </body>
 </html>
+
+

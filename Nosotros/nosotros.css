@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 *{
     margin: 0;
@@ -15,10 +17,16 @@
 }
 
 p{
-    font-family: 'Smooch Sans', sans-serif;
-    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    color: white;
 }
 
+hr{
+    margin-top: 20px;
+}
+
+/*Header*/
 header video{
     width: 100%;
     height: auto;
@@ -36,6 +44,7 @@ header video{
     left: 50px;
     font-size: 50px;
 }
+/*Navbar*/
 nav{
     padding: 20px;
     margin-bottom: 20px;
@@ -75,6 +84,7 @@ nav a{
     display: flex;
     align-items: center;
     color: var(--blanco);
+    cursor: pointer;
 }
 nav a:hover{
     background-color: var(--blanco);
@@ -126,6 +136,7 @@ nav li:first-child{
     background-color: gray;
   
 }
+/*contenido*/
 main{
     background-color: black;
     color: white;
@@ -141,6 +152,7 @@ main{
     margin-top: 30px;
     text-align: center;
 }
+/*Sesion 1*/
 .sesion1{
     margin-top: 30px;
     display: grid;
@@ -151,3 +163,206 @@ main{
     margin-top: 100px;
 }
 
+/*Sesion 2*/
+.sesion2_video{
+    
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -12px;
+}
+.sesion2_video video{
+    width: 1240px;
+ 
+}
+/*Sesion 3*/
+.sesion3{
+    
+    margin-top: 50px;
+}
+.sesion3_informacion{
+  
+    margin-bottom: 30px;
+}
+.sesion3_informacion h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.sesion3_informacion p{
+    text-align: center;
+    
+}
+.slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    column-gap: 60px;
+}
+.sesion3_todo_imagen{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 100%;
+    height: 350px;
+}
+.sesion3_todo_parrafo {
+    grid-column: 1/2;
+    grid-row: 2/2;
+    margin-top: -5px;
+   
+}
+.sesion3_todo_titulo{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    margin-top: 90px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.flechaI{
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -30px;
+    transform: translate(-50px, -200px);
+
+}
+.flechaD{
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    border: 0;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: -30px;
+    transform: translate(1195px, -200px)
+    
+
+}
+.flechaD:hover , .flechaI:hover{
+    background-color: white;
+    color: black;
+}
+/*Sesion 4*/
+.sesion4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+   
+}
+.sesion4_parrafo{
+    margin-left: 35px;
+}
+.sesion4_parrafo h3{
+    margin-bottom: 35px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.sesion4_parrafo p{
+    margin-top: 20px;
+}
+.sesion4_imagen img{
+    width: 680px;
+    margin-left: -40px;
+}
+.sesion4_parrafo span{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    color: white;
+}
+.sesion4_parrafo2{
+    margin-right: 35px;
+}
+.sesion4_parrafo2 h3{
+    margin-bottom: 35px;
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.sesion4_parrafo2 p{
+    margin-top: 20px;
+}
+.sesion4_imagen2 img{
+    width: 620px;
+    height: 400px;
+    margin-top: -5px;
+}
+.sesion4_parrafo2 span{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    color: white;
+}
+.hr{
+    width: 1260px;
+}
+/*Sesion 5*/
+.sesion5{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+.sesion5_imagen{
+    grid-column: 1/2;
+}
+.sesion5_formulario{
+    grid-column: 2/3;
+}
+.sesion5_imagen img{
+    width: 700px;
+    height: 600px;
+    
+}
+.sesion5_formulario{
+    margin-left: 160px;
+}
+
+  .sesion5_formulario input[type="text"],
+  .sesion5_formulario input[type="tel"],
+  .sesion5_formulario input[type="email"],
+  .sesion5_formulario textarea,
+  .sesion5_formulario select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgb(107, 99, 99);
+    color: black;
+    font-weight: bold;
+  }
+  
+  .sesion5_formulario input[type="submit"] {
+    width: 86%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(12, 6, 99);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .sesion5_formulario input[type="submit"]:hover {
+    background-color: white;
+    color: rgb(12, 6, 99);;
+  }
+.sesion5_formulario ::placeholder, .sesion5_formulario select{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sesion5_formulario select{
+    width: 85%;
+
+}
