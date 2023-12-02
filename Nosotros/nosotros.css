@@ -11,7 +11,9 @@
     --negro: black;
     --gris: gray;
     --blanco: white;
-    --grisClaro: rgba(255, 255, 255, 0.2)
+    --grisClaro: rgba(255, 255, 255, 0.2);
+    --azul: rgb(12, 6, 99);
+    --grisOscuro : rgb(31, 30, 30);
 }
 
 p{
@@ -345,7 +347,7 @@ main{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(12, 6, 99);
+    background-color: var(--azul);
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -354,7 +356,7 @@ main{
   
   .sesion5_formulario input[type="submit"]:hover {
     background-color: white;
-    color: rgb(12, 6, 99);;
+    color: var(--azul);
   }
 .sesion5_formulario ::placeholder, .sesion5_formulario select{
     color: black;
@@ -368,7 +370,7 @@ main{
 
 /*Footer*/
 footer{
-    background-color: rgb(31, 30, 30);
+    background-color: var(--grisOscuro);
     padding: 40px;
 }
 .footer{

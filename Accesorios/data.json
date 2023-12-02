@@ -1,0 +1,113 @@
+{
+    "Accesorios" : [
+        {
+            "NombreProducto": "Llanta Rin 14 compasal 185/65r",
+            "categoria" : "Llantas",
+            "Precio" : 162000,
+            "image" : "./IMG/ruedas1.avif"
+        },
+        {
+            "NombreProducto": "Llanta Rin 20 compasal 200/75r",
+            "categoria" : "Llantas",
+            "Precio" : 180000,
+            "image" : "./IMG/Ruedas2.jpg"
+        },
+        {
+            "NombreProducto": "Llanta Rin 10 compasal 170/80r",
+            "categoria" : "Llantas",
+            "Precio" : 150000,
+            "image" : "./IMG/Ruedas3.jpg"
+        },
+        {
+            "NombreProducto": "bdsaw",
+            "categoria" : "Luces",
+            "Precio" : 5000,
+            "image" : "./IMG/luces1.avif"
+        },
+        {
+            "NombreProducto": "eafsaf",
+            "categoria" : "Luces",
+            "Precio" : 5000,
+            "image" : "./IMG/luces2.jpg"
+        },
+        {
+            "NombreProducto": "fsdf",
+            "categoria" : "Luces",
+            "Precio" : 5000,
+            "image" : "./IMG/luces3.webp"
+        },
+        {
+            "NombreProducto": "puer",
+            "categoria" : "Puertas",
+            "Precio" : 5000,
+            "image" : "./IMG/puertas1.jpg"
+        },
+        {
+            "NombreProducto": "puerta",
+            "categoria" : "Puertas",
+            "Precio" : 5000,
+            "image" : "./IMG/puertas2.webp"
+        },
+        {
+            "NombreProducto": "Puertas",
+            "categoria" : "Puertas",
+            "Precio" : 5000,
+            "image" : "./IMG/puertas3.webp"
+        },
+        {
+            "NombreProducto": "Gris",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color1.jpg"
+        },
+        {
+            "NombreProducto": "Negro",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color2.jpg"
+        },
+        {
+            "NombreProducto": "Amarillo",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color3.webp"
+        },
+        {
+            "NombreProducto": "Cafe - Plateado",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color4.jpg"
+        },
+        {
+            "NombreProducto": "Blanco",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color5.avif"
+        },
+        {
+            "NombreProducto": "Azul",
+            "categoria" : "Colores",
+            "Precio" : 5000,
+            "image" : "./IMG/color6.webp"
+        },
+        {
+            "NombreProducto": "blalbla",
+            "categoria" : "Asientos",
+            "Precio" : 5000,
+            "image" : "./IMG/asiento1.webp"
+        },
+        {
+            "NombreProducto": "blalbla",
+            "categoria" : "Asientos",
+            "Precio" : 5000,
+            "image" : "./IMG/asiento2.jpg"
+        },
+        {
+            "NombreProducto": "blalbla",
+            "categoria" : "Asientos",
+            "Precio" : 5000,
+            "image" : "./IMG/asiento3.jpg"
+        }
+
+    ]
+}
