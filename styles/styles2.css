@@ -1,0 +1,134 @@
+.contenedorp {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  
+  .linea-s,
+  .linea-i {
+    height: 6px;
+    border-radius: 100px;;
+    background-color: rgb(224, 59, 53);
+    margin: 10px 0; 
+  }
+  
+
+  .contenedorv {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+  .menubtn {
+    background-color: #007bff00; 
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+  }
+.menubtn:hover{
+  background-color: rgb(9, 184, 253);
+  border-radius: 15px;
+  border-width: 2px;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 110px; 
+    right: 10px; 
+    background-color: rgba(17, 78, 170, 0.534);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: rgb(187, 32, 156);
+  }
+  
+  .menu ul {
+    list-style: disc;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  p{
+    color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .menu ul li a {
+    text-decoration: dashed;
+    color: #ecdcdc;
+  }
+  
+  .menu.show-menu {
+    display: block;
+  }
+  
+  .contenedorv
+   #iframe    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8%;
+  }
+body{
+    background-color: rgb(5, 0, 0)
+}
+
+ .text {
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ h2{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 1%;
+ }
+
+ h3{
+    font-size: x-large;
+    font-weight: bolder;
+ }
+
+ .content img{
+    padding: 0;
+    margin-top: 50px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 30%;
+ }
+ img:hover{
+    color: rgb(76, 0, 255);
+}
+.content {
+    text-align: center;
+}
+
+.content a{
+    color: black;
+}
+
+h4{
+    margin-left: 305px;
+    color:rgb(0, 238, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+h4:hover{
+    color: rgba(255, 0, 119, 0.808)
+}

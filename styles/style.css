@@ -1,0 +1,190 @@
+
+body h1{
+    padding-bottom: 500px; 
+    color: aqua;  
+    text-align: center;
+}
+body h2 {
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  form {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 8px 0;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgba(137, 95, 177, 0);
+    border: 1px solid rgba(204, 204, 204, 0.22);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: rgba(61, 50, 90, 0.226);
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(50, 68, 172, 0.295);
+  }
+  
+  #videoBg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  .Cuerpo h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(252, 247, 247);
+    padding-bottom: 150px;
+  
+  }
+
+  .menubtn {
+    background-color: #007bff00; 
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+  }
+.menubtn:hover{
+  background-color: rgb(253, 9, 9);
+  border-radius: 15px;
+  border-width: 2px;
+}
+
+.Cuerpo h2{
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  left: 41.5%;
+}
+
+.Cuerpo h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  color: white;
+  position: absolute;
+  top: 14%;
+  font-style: italic;
+  text-align: center;
+  left: 45%;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 110px; 
+  right: 10px; 
+  background-color: rgba(17, 78, 170, 0.534);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: rgb(187, 32, 156);
+}
+
+.menu ul {
+  list-style: disc;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.menu ul li a {
+  text-decoration: dashed;
+  color: #ecdcdc;
+}
+
+.menu.show-menu {
+  display: block;
+}
+
+.img-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px 0;
+}
+
+.img-container img {
+  width:400px; 
+  height: 300px;
+  margin-bottom: 200px;
+  opacity:90%;
+  border-radius: 20px;
+  border-style:double;
+  border-color: rgba(230, 18, 18, 0.658);
+  cursor: pointer;
+  color: aqua;
+}
+
+img:hover{
+  background-color: rgb(245, 10, 174);
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(44, 113, 160, 0.42);
+  color: #fff;
+  margin-bottom: 100px;
+  text-decoration: none;
+  border-radius: 35px;
+  border-color: rgba(255, 0, 149, 0.493);
+  border-style: dashed;
+  text-align: center;
+  font: bold;
+  font-size: 16px;  
+  border: none;
+  cursor: pointer;
+  margin-left: 450px;
+}
+
+.boton:hover {
+  background-color: rgb(176, 190, 48);
+}

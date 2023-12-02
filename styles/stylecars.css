@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.menubtn {
+    background-color: #007bff00; 
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 95%;
+  }
+.menubtn:hover{
+  background-color: rgb(9, 184, 253);
+  border-radius: 15px;
+  border-width: 2px;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 110px; 
+    right: 10px; 
+    background-color: rgba(17, 78, 170, 0.534);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: rgb(187, 32, 156);
+  }
+  
+  .menu ul {
+    list-style: disc;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  p{
+    color: aliceblue;
+    font-size: x-large;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .menu ul li a {
+    text-decoration: dashed;
+    color: #ecdcdc;
+  }
+  
+  .menu.show-menu {
+    display: block;
+  }
+  
