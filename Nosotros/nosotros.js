@@ -3,7 +3,7 @@ const ArchivoJson = 'data.json'
 fetch (ArchivoJson)
     .then(response => response.json())
     .then(data => {
-
+    
 const carrusel = document.getElementById('carrusel');
 let actual = 0;
 
@@ -20,7 +20,7 @@ function MostrarCarrusel(index) {
       </div>
     `;
     actual = index;
-  } 
+  }
 
 }
 
@@ -47,6 +47,6 @@ flechaD.addEventListener('click', adelante);
 
 })
 .catch(error => {
-    console.error('Error al cargar el archivo JSON:', error);
+    console.error('Error al cargar el Carrusel:', error);
   });
 
