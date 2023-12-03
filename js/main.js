@@ -1,3 +1,4 @@
+
 function validar() {
     var user = document.getElementById('user').value;
     var pswd = document.getElementById('pswd').value;
