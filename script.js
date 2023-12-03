@@ -6,7 +6,14 @@ function abrir(){
      const quitar = document.querySelector('.sidebar');
      quitar.style.display = 'none';
  }
-
+function abrirCarrito(){
+  const abrirCarrito = document.querySelector('.productos_carrito')
+  abrirCarrito.style.display = 'flex'
+}
+function cerrarCarrito(){
+  const CerrarCarrito = document.querySelector('.productos_carrito')
+  CerrarCarrito.style.display = 'none'
+}
  
 function enviar (event){
     event.preventDefault();

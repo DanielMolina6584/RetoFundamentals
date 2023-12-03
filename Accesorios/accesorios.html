@@ -10,6 +10,16 @@
 <body>
     <nav>
         <ul>
+            <li class="carrito" onclick="abrirCarrito()">
+                <a><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="24"><path d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg></a>
+            </li>
+            <ul class="productos_carrito">
+                <li class="cerrar_carrito" onclick="cerrarCarrito()">
+                    <a><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                </li>
+                <li class="products"></li>
+
+            </ul>
             <li><h1 class="tituloP">Vecchio</h1></li>
             <li class="menu" onclick= "abrir()">
                 <a><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
@@ -24,8 +34,8 @@
             <li><p class="tituloV">Vecchio</p></li>
             <li class="enlaces"><a href="#">Inicio</a></li>
             <li class="enlaces"><a href="#">Modelos</a></li>
-            <li class="enlaces"><a href="#">Nosotros</a></li>
-            <li class="enlaces"><a href="#">Accesorios</a></li>
+            <li class="enlaces"><a href="../Nosotros/nosotros.html">Nosotros</a></li>
+            <li class="enlaces"><a href="./accesorios.html">Accesorios</a></li>
             
         </ul>
 
@@ -78,6 +88,38 @@
         <button class="flechaD"> > </button>
     </div>
 </main>
+
+<footer>
+
+    <div class="footer">
+        <div class="redes">
+            <h2>Redes Sociales</h2>
+            <a href="https://www.facebook.com/"><img src="./IMG/facebook.png" alt="" class="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="./IMG/instagram.png" alt="" class="ig"></a>
+            <a href="https://www.youtube.com/"><img src="./IMG/youtube (1).png" alt="" class="youtube"></a>
+            <a href="https://www.tiktok.com/"><img src="./IMG/tik-tok.png" alt="" class="tik"></a>
+        </div>
+        <div class="footer_imagen">
+            <img src="./IMG/logoo.png" alt="">
+        </div>
+        <div class="footer_informacion">
+            <h2>Contactanos</h2>
+            <div class="info1">
+                <img src="./IMG/telefono.png" alt=""><p>319 702 7486</p>
+            </div>
+
+            <div class="info2">
+                <img src="./IMG/email.png" alt=""><p>daniel.torres3132@gmail.com</p>
+            </div>
+            
+            <div class="info3">
+                <img src="./IMG/marcador-de-posicion.png" alt=""><p>Calle 62a #55-65</p>
+            </div>
+            
+        </div>
+    </div>
+    
+</footer>
     
 </body>
 
