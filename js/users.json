@@ -1,0 +1,20 @@
+{
+"Users": [
+    {
+      "name": "David Madrigal",
+      "email": "dm777@gmail.com",
+      "password": "123"
+    },
+    {
+      "name": "Sebastian",
+      "email": "sebastian@gmail.com",
+      "password": "qwdqdwqwdqwdqwdqwdqwd"
+    },
+    {
+
+      "name": "Karla",
+      "email": "Martinez",
+      "password": "123456"
+    }
+  ]
+}
