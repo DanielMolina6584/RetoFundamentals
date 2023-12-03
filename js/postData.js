@@ -1,4 +1,5 @@
-const Postdata = async (url, datos) => {
+import axios from 'axios';
+const postData = async (url, datos) => {
     try {
       await axios.post(url, datos);
       alert("Usuario Creado exitosamente");
@@ -6,4 +7,4 @@ const Postdata = async (url, datos) => {
       console.log(error);
     }
   };
-  export default Postdata;
+  export default postData;
