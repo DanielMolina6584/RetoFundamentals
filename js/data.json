@@ -1,0 +1,226 @@
+{
+     "hypercarros": [
+      {
+        "id": 1,
+        "nombre": "Bugatti Chiron",
+        "video" : "../Media/Bugatti.mp4",
+        "precio": 3000000,
+        "descripcion": "El Bugatti Chiron es un hypercarro de alto rendimiento con un motor W16 y una velocidad máxima asombrosa.",
+        "color": "Azul y Negro",
+        "año": 2023
+      },
+      {
+        "id": 2,
+        "nombre": "Koenigsegg Jesko",
+        "video" : "../Media/jesko.mp4",
+        "precio": 2800000,
+        "descripcion": "El Koenigsegg Jesko es un hypercarro diseñado para la máxima velocidad y agilidad en carretera.",
+        "color": "Plata",
+        "año": 2023
+      },
+      {
+        "id": 3,
+        "nombre": "Pagani Huayra",
+        "video" : "../Media/huayra.mp4",
+        "precio": 3200000,
+        "descripcion": "El Pagani Huayra es un hypercarro artesanal con un diseño impresionante y un rendimiento excepcional.",
+        "color": "Rojo y Carbono",
+        "año": 2023
+      },
+      {
+        "id": 4,
+        "nombre": "Ferrari LaFerrari",
+        "video" : "../Media/ferrari.mp4",
+        "precio": 3500000,
+        "descripcion": "El Ferrari LaFerrari es un hypercarro híbrido de altas prestaciones con un diseño aerodinámico y elegante.",
+        "color": "Rojo",
+        "año": 2023
+      },
+      {
+        "id": 5,
+        "nombre": "Lamborghini Centenario",
+        "video" : "../Media/centenario.mp4",
+        "precio": 3200000,
+        "descripcion": "El Lamborghini Centenario es un hypercarro exclusivo con un diseño radical y un poderoso motor V12.",
+        "color": "Azul",
+        "año": 2023
+      },
+      {
+        "id": 6,
+        "nombre": "Aston Martin Valkyrie",
+        "video" : "../Media/martin.mp4",
+        "precio": 3800000,
+        "descripcion": "El Aston Martin Valkyrie es un hypercarro de edición limitada con un diseño extremadamente aerodinámico y un motor V12 de alto rendimiento.",
+        "color": "Verde y Negro",
+        "año": 2023
+      }
+    ],
+    "sedan": [
+      {
+        "id": 7,
+        "nombre": "Toyota Corolla",
+        "img": "../Media/corolla.png",
+        "precio": 25000,
+        "descripcion": "El Toyota Corolla es un sedán compacto conocido por su confiabilidad y eficiencia en combustible.",
+        "color": "Blanco",
+        "año": 2023
+      },
+      {
+        "id": 8,
+        "nombre": "Honda Civic",
+        "img": "../Media/civic.png",
+        "precio": 27000,
+        "descripcion": "El Honda Civic es un sedán deportivo con un diseño aerodinámico y tecnología avanzada.",
+        "color": "Blanco Perlado",
+        "año": 2023
+      },
+      {
+        "id": 9,
+        "nombre": "Nissan Altima",
+        "img": "../Media/nissan.png",
+        "precio": 26000,
+        "descripcion": "El Nissan Altima es un sedán familiar con un diseño moderno y características de seguridad avanzadas.",
+        "color": "Gris Plata",
+        "año": 2023
+      },
+      {
+        "id": 10,
+        "nombre": "Mazda 6",
+        "img": "../Media/mazda.png",
+        "precio": 28000,
+        "descripcion": "El Mazda 6 es un sedán elegante con un equilibrio entre rendimiento y comodidad en la conducción.",
+        "color": "Rojo",
+        "año": 2023
+      },
+      {
+        "id": 13,
+        "nombre": "Hyundai Elantra",
+        "img": "../Media/elentra.png",
+        "precio": 25500,
+        "descripcion": "El Hyundai Elantra es un sedán compacto con características tecnológicas avanzadas y eficiencia de combustible.",
+        "color": "Plata",
+        "año": 2023
+      },
+      {
+        "id": 14,
+        "nombre": "Chevrolet Malibu",
+        "img": "../Media/malibu.png",
+        "precio": 27000,
+        "descripcion": "El Chevrolet Malibu es un sedán versátil y cómodo, ideal para viajes largos y uso diario.",
+        "color": "Negro",
+        "año": 2023
+      },
+      {
+        "id": 15,
+        "nombre": "Ford Fusion",
+        "img": "../Media/fusion.png",
+        "precio": 28000,
+        "descripcion": "El Ford Fusion es un sedán con estilo moderno y tecnología de asistencia al conductor.",
+        "color": "Gris Oscuro",
+        "año": 2023
+      },
+      {
+        "id": 16,
+        "nombre": "Volkswagen Jetta",
+        "img": "../Media/jetta.png",
+        "precio": 26500,
+        "descripcion": "El Volkswagen Jetta es un sedán confiable con un interior espacioso y características de seguridad destacadas.",
+        "color": "Azul Metálico",
+        "año": 2023
+      }
+    ],
+      "SUV": [
+      {
+        "id": 17,
+        "nombre": "Toyota RAV4",
+        "img": "../Media/rav.png",
+        "precio": 32000,
+        "descripcion": "El Toyota RAV4 es un SUV versátil con tracción en las cuatro ruedas y amplio espacio interior.",
+        "color": "Gris",
+        "año": 2023
+      },
+      {
+        "id": 18,
+        "nombre": "Honda CR-V",
+        "img": "../Media/honda.png",
+        "precio": 33000,
+        "descripcion": "El Honda CR-V es un SUV familiar con tecnología avanzada y comodidad en la conducción.",
+        "color": "Blanco Perlado",
+        "año": 2023
+      },
+      {
+        "id": 19,
+        "nombre": "Nissan Rogue",
+        "img": "../Media/nissanr.png",
+        "precio": 32500,
+        "descripcion": "El Nissan Rogue es un SUV compacto con características de seguridad y espacio para toda la familia.",
+        "color": "Negro",
+        "año": 2023
+      },
+      {
+        "id": 20,
+        "nombre": "Mazda CX-5",
+        "img": "../Media/cx5.png",
+        "precio": 34000,
+        "descripcion": "El Mazda CX-5 es un SUV deportivo con un diseño elegante y tecnología intuitiva.",
+        "color": "Rojo Metálico",
+        "año": 2023
+      },
+      {
+        "id": 21,
+        "nombre": "Hyundai Santa Fe",
+        "img": "../Media/santa.png",
+        "precio": 33500,
+        "descripcion": "El Hyundai Santa Fe es un SUV espacioso y cómodo con un estilo moderno y características avanzadas.",
+        "color": "Plateado",
+        "año": 2023
+      },
+      {
+        "id": 22,
+        "nombre": "Chevrolet Equinox",
+        "img": "../Media/equi.png",
+        "precio": 33000,
+        "descripcion": "El Chevrolet Equinox es un SUV eficiente en combustible con tecnología de conectividad avanzada.",
+        "color": "Plateado",
+        "año": 2023
+      }
+    ],
+    "deportivos": [
+      {
+        "id": 25,
+        "nombre": "Porsche 911",
+        "video" : "../Media/porsche.mp4",
+        "precio": 150000,
+        "descripcion": "El Porsche 911 es un icónico deportivo con un potente motor y un diseño distintivo.",
+        "color": "Rojo Porsche",
+        "año": 2023
+      },
+      {
+        "id": 26,
+        "nombre": "Chevrolet Corvette",
+        "video" : "../Media/corvette.mp4",
+        "precio": 110000,
+        "descripcion": "El Chevrolet Corvette es un deportivo americano con un rendimiento excepcional y un diseño aerodinámico.",
+        "color": "Amarillo",
+        "año": 2023
+      },
+      {
+        "id": 27,
+        "nombre": "Ford Mustang Shelby GT500",
+        "video" : "../Media/mustang.mp4",
+        "precio": 130000,
+        "descripcion": "El Ford Mustang Shelby GT500 es un potente deportivo con un rendimiento de pista impresionante.",
+        "color": "Rojo Naranja",
+        "año": 2023
+      },
+      {
+        "id": 28,
+        "nombre": "Ferrari 488 GTB",
+        "video" : "../Media/ferrarirr.mp4",
+        "precio": 300000,
+        "descripcion": "El Ferrari 488 GTB es un deportivo italiano con un diseño elegante y una velocidad excepcional.",
+        "color": "Blanco Ferrari",
+        "año": 2023
+      }
+    ]
+  }
