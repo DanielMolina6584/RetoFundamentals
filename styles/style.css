@@ -29,10 +29,25 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   }
-  
+  input [type="email"],
   input[type="text"],
   input[type="password"],
-  input[type="submit"] {
+  input[type="submit"]
+   {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 8px 0;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgba(137, 95, 177, 0);
+    border: 1px solid rgba(204, 204, 204, 0.22);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #mail{
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -76,6 +91,13 @@ body {
     color: rgb(252, 247, 247);
     padding-bottom: 150px;
   
+  }
+  .registro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color: white;
+    margin-left: 300px;
   }
 
   .menubtn {

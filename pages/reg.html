@@ -9,14 +9,12 @@
 </head>
 
 <body>
-    <form id="loginForm" onsubmit="return validar()">
-        <h2>L O G I N </h2>
+    <form id="regForm">
+        <h2>R E G I S T E R </h2>
         <input type="text" id="user" placeholder="Usuario" required>
         <input type="password" id="pswd" placeholder="Contraseña" required>
-        <input type="submit" value="Start">
-        <div class="registro">
-            ¿No tienes Cuenta? <a href="../pages/reg.html"> Registrate</a>
-        </div>
+        <input type="email" id="mail" placeholder="Correo Electronico" required>
+        <input type="submit" value="Lets Go!">
     </form>
     <div class="h1">
         <h1> V E C C H I O</h1>
@@ -25,7 +23,8 @@
         <source src="../Media/135728 (1080p).mp4" type="video/mp4">
     </video>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/reg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>    
 </body>
 
 </html>
