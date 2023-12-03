@@ -1,0 +1,131 @@
+{
+    "Accesorios" : [
+        {
+            "NombreProducto": "Llanta Rin 14 compasal 185/65r",
+            "categoria" : "Llantas",
+            "Precio" : 162000,
+            "image" : "./IMG/ruedas1.avif"
+        },
+        {
+            "NombreProducto": "Llanta Rin 20 compasal 200/75r",
+            "categoria" : "Llantas",
+            "Precio" : 180000,
+            "image" : "./IMG/Ruedas2.jpg"
+        },
+        {
+            "NombreProducto": "Llanta Rin 10 compasal 170/80r",
+            "categoria" : "Llantas",
+            "Precio" : 150000,
+            "image" : "./IMG/Ruedas3.jpg"
+        },
+        {
+            "NombreProducto": "Luces de Xenon",
+            "categoria" : "Luces",
+            "Precio" : 199000,
+            "image" : "./IMG/luces1.avif"
+        },
+        {
+            "NombreProducto": "Luces Halogenas, Alta Potencia",
+            "categoria" : "Luces",
+            "Precio" : 250000,
+            "image" : "./IMG/luces2.jpg"
+        },
+        {
+            "NombreProducto": "Luces Led",
+            "categoria" : "Luces",
+            "Precio" : 199000,
+            "image" : "./IMG/luces3.webp"
+        },
+        {
+            "NombreProducto": "Puertas Tijera, 2 Puertas",
+            "categoria" : "Puertas",
+            "Precio" : 700000,
+            "image" : "./IMG/puertas1.jpg"
+        },
+        {
+            "NombreProducto": "Puertas Normales, 4 puertas",
+            "categoria" : "Puertas",
+            "Precio" : 600000,
+            "image" : "./IMG/puertas2.webp"
+        },
+        {
+            "NombreProducto": "Puertas Coches Descapotables",
+            "categoria" : "Puertas",
+            "Precio" : 500000,
+            "image" : "./IMG/puertas3.webp"
+        },
+        {
+            "NombreProducto": "Color Gris Mate-Plateado",
+            "categoria" : "Colores",
+            "Precio" : 1000000,
+            "image" : "./IMG/color1.jpg"
+        },
+        {
+            "NombreProducto": "Color Negro-Azulado Oscuro",
+            "categoria" : "Colores",
+            "Precio" : 900000,
+            "image" : "./IMG/color2.jpg"
+        },
+        {
+            "NombreProducto": "Color Amarillo",
+            "categoria" : "Colores",
+            "Precio" : 800000,
+            "image" : "./IMG/color3.webp"
+        },
+        {
+            "NombreProducto": "Color Cafe Mate",
+            "categoria" : "Colores",
+            "Precio" : 950000,
+            "image" : "./IMG/color4.jpg"
+        },
+        {
+            "NombreProducto": "Color Blanco",
+            "categoria" : "Colores",
+            "Precio" : 800000,
+            "image" : "./IMG/color5.avif"
+        },
+        {
+            "NombreProducto": "Color Azul Claro-Plateado",
+            "categoria" : "Colores",
+            "Precio" : 1000000,
+            "image" : "./IMG/color6.webp"
+        },
+        {
+            "NombreProducto": "Respaldo Asiento Pvc Forro Protector Universal",
+            "categoria" : "Asientos",
+            "Precio" : 200000,
+            "image" : "./IMG/asiento1.webp"
+        },
+        {
+            "NombreProducto": "Respaldo Asiento Lujo Deportivo",
+            "categoria" : "Asientos",
+            "Precio" : 400000,
+            "image" : "./IMG/asiento2.jpg"
+        },
+        {
+            "NombreProducto": "Respaldo Asiento Lujo Formal",
+            "categoria" : "Asientos",
+            "Precio" : 350000,
+            "image" : "./IMG/asiento3.jpg"
+        }
+
+    ],
+    "Carrusel":[
+        {
+            "Imagen" : "./IMG/car1.jpg",
+            "Titulo" : "Soporte Para Ruedas",
+            "Texto" : "¿Buscas adaptadores, espaciadores, tuercas de seguridad o componentes de alta resistencia? En Vecchio, encontrarás accesorios compatibles con una amplia gama de soportes de ruedas, sin importar la marca o el modelo. Nuestros productos están fabricados con los más altos estándares de calidad, asegurando la fiabilidad y la durabilidad que los entusiastas del automovilismo esperan y merecen."
+        },
+        {
+            "Imagen" : "./IMG/car2.jpg",
+            "Titulo" : "Lonas Para Tu Coche",
+            "Texto" : "¡Protege tu vehículo con nuestras lonas premium para coches! En Vecchio, entendemos lo importante que es mantener tu automóvil seguro y en óptimas condiciones. Nuestras lonas para coches están confeccionadas con materiales de la más alta calidad, garantizando resistencia a la intemperie, protección contra los rayos UV, resistencia al agua y durabilidad a largo plazo."
+        },
+        {
+            "Imagen" : "./IMG/car3.jpg",
+            "Titulo" : "Kit de Primeros Auxilios",
+            "Texto" : "Nuestro kit incluye una amplia gama de suministros médicos esenciales, desde apósitos estériles y vendajes adhesivos hasta gasas, tijeras de seguridad y vendajes elásticos. Cada elemento ha sido seleccionado cuidadosamente para garantizar la máxima eficacia en el tratamiento de lesiones menores y la prestación de asistencia inicial en caso de emergencias más graves."
+        }
+    ]
+    
+}
